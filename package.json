@@ -1,0 +1,35 @@
+{
+  "name": "sample-travis-heroku",
+  "version": "1.0.0",
+  "description": "A project illustrating Git, Heroku, and Travis working together",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treudey/sample-travis-heroku.git"
+  },
+  "keywords": [
+    "Heroku",
+    "Git",
+    "Travis",
+    "Node",
+    "Continuous Integration"
+  ],
+  "author": "Alex Treude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Treudey/sample-travis-heroku/issues"
+  },
+  "homepage": "https://github.com/Treudey/sample-travis-heroku#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
