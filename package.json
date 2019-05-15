@@ -4,9 +4,9 @@
   "description": "A project illustrating Git, Heroku, and Travis working together",
   "main": "server.js",
   "scripts": {
+    "lint": "eslint",
     "test": "npm run lint server.js && mocha ./tests/index-spec.js",
-    "start": "node server.js",
-    "lint": "eslint"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
