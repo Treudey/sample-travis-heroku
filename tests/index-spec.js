@@ -1,4 +1,6 @@
-import { describe } from 'mocha';
+const mocha = require('mocha');
+
+const { describe } = mocha;
 
 const chai = require('chai');
 
